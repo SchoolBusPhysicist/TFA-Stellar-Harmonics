@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+title: "Universal Harmonic Structure in Stellar Oscillations: A Real-Number Coupling Framework"
+message: "If you use this work, please cite it using the metadata from this file."
+type: software
+authors:
+  - family-names: King
+    given-names: Jason A.
+    affiliation: Independent Researcher
+    city: Missouri
+    country: US
+repository-code: "https://github.com/SchoolBusPhysicist/KING-DFA-Stellar-Harmonics"
+url: "https://github.com/SchoolBusPhysicist/KING-DFA-Stellar-Harmonics"
+abstract: >-
+  A single real-number equation kappa = R/(R+S) governs coupled dynamical systems
+  with zero free parameters. Three derived constants (kappa* = 1/e, D2 = 19/13,
+  N0 = 456) predict structure across neutrino physics, stellar oscillations,
+  and number theory. Validated against 336,516 IceCube neutrino events and
+  25,857 stellar systems.
+keywords:
+  - asteroseismology
+  - stellar oscillations
+  - neutrino physics
+  - KDFA framework
+  - correlation dimension
+  - harmonic analysis
+license: CC-BY-4.0
+version: "1.0.0"
+date-released: "2025-12-15"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: King
+      given-names: Jason A.
+  title: "Universal Harmonic Structure in Stellar Oscillations: A Real-Number Coupling Framework with Neutrino and Number-Theoretic Validation"
+  year: 2025
+  url: "https://github.com/SchoolBusPhysicist/KING-DFA-Stellar-Harmonics"

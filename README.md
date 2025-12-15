@@ -294,9 +294,30 @@ The framework fails if:
 
 ## License
 
-CC-BY-4.0
+This work is licensed under **[CC-BY-4.0](LICENSE)** (Creative Commons Attribution 4.0 International).
+
+**You are free to:**
+- Share and redistribute
+- Adapt, remix, and build upon (including commercial use)
+
+**With attribution:**
+- Credit: Jason A. King
+- Link to this repository
+- Indicate if changes were made
+
+See [LICENSE](LICENSE) for full terms.
+
+## Citation
+
+If you use this work, please cite:
+
+```
+King, J.A. (2025). Universal Harmonic Structure in Stellar Oscillations:
+A Real-Number Coupling Framework. GitHub: SchoolBusPhysicist/KING-DFA-Stellar-Harmonics
+```
 
 ## Contact
 
-Jason A. King - Independent Researcher, Missouri, USA
+**Jason A. King**
+Independent Researcher, Missouri, USA
 GitHub: https://github.com/SchoolBusPhysicist/KING-DFA-Stellar-Harmonics

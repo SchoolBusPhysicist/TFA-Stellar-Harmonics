@@ -1,0 +1,84 @@
+Creative Commons Attribution 4.0 International License (CC-BY-4.0)
+
+Copyright (c) 2025 Jason A. King
+
+This work is licensed under the Creative Commons Attribution 4.0
+International License. To view a copy of this license, visit:
+https://creativecommons.org/licenses/by/4.0/
+
+================================================================================
+ATTRIBUTION REQUIREMENTS
+================================================================================
+
+When using, sharing, or adapting this work, you MUST give appropriate credit:
+
+1. CITE THE AUTHOR:
+   Jason A. King
+   Independent Researcher, Missouri, USA
+
+2. CITE THE REPOSITORY:
+   https://github.com/SchoolBusPhysicist/KING-DFA-Stellar-Harmonics
+
+3. FOR ACADEMIC USE, cite as:
+
+   King, J.A. (2025). Universal Harmonic Structure in Stellar Oscillations:
+   A Real-Number Coupling Framework with Neutrino and Number-Theoretic
+   Validation. GitHub: SchoolBusPhysicist/KING-DFA-Stellar-Harmonics
+
+4. BIBTEX:
+
+   @article{king2025stellar,
+     title={Universal Harmonic Structure in Stellar Oscillations:
+            A Real-Number Coupling Framework},
+     author={King, Jason A.},
+     year={2025},
+     note={GitHub: SchoolBusPhysicist/KING-DFA-Stellar-Harmonics},
+     url={https://github.com/SchoolBusPhysicist/KING-DFA-Stellar-Harmonics}
+   }
+
+================================================================================
+YOU ARE FREE TO:
+================================================================================
+
+- Share: Copy and redistribute the material in any medium or format
+- Adapt: Remix, transform, and build upon the material for any purpose,
+         including commercial use
+
+================================================================================
+UNDER THE FOLLOWING TERMS:
+================================================================================
+
+- Attribution: You must give appropriate credit, provide a link to the license,
+               and indicate if changes were made. You may do so in any
+               reasonable manner, but not in any way that suggests the licensor
+               endorses you or your use.
+
+- No additional restrictions: You may not apply legal terms or technological
+               measures that legally restrict others from doing anything the
+               license permits.
+
+================================================================================
+NOTICES:
+================================================================================
+
+You do not have to comply with the license for elements of the material in
+the public domain or where your use is permitted by an applicable exception
+or limitation.
+
+No warranties are given. The license may not give you all of the permissions
+necessary for your intended use. For example, other rights such as publicity,
+privacy, or moral rights may limit how you use the material.
+
+================================================================================
+FRAMEWORK CONSTANTS (For Reference)
+================================================================================
+
+The KDFA framework uses three derived constants with zero free parameters:
+
+- Critical coupling: kappa* = 1/e = 0.368
+- Correlation dimension: D2 = 19/13 = 1.462
+- Harmonic constant: N0 = 168e = 456
+
+These constants and their derivations are part of this licensed work.
+
+================================================================================
