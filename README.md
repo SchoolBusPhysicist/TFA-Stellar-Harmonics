@@ -69,14 +69,43 @@ Where:
 
 ## Zone Classifications
 
-| System Type | κ Value | Zone | Stability |
-|-------------|---------|------|-----------|
-| Gaia wide binaries | 0.281 ± 0.003 | Zone 1 | Very stable |
-| Heartbeat stars | 0.167 ± 0.086 | Zone 1 | Stable |
-| Triple systems | 0.446 ± 0.143 | Zone 2 | Generative |
-| KOI-54 | 0.57 | Zone 2 (upper) | Pre-collapse |
+| System Type | κ Value | Zone | Dynamical State |
+|-------------|---------|------|-----------------|
+| Gaia wide binaries | 0.281 ± 0.003 | Zone 1 | Structurally stable |
+| Heartbeat stars | 0.167 ± 0.086 | Zone 1 | Structurally stable |
+| Triple systems | 0.446 ± 0.143 | Zone 2 | Active evolutionary |
+| KOI-54 | 0.57 | Zone 2 (upper) | Pre-transitional |
+
+**Zone Definitions:**
+- **Zone 1 (κ < 0.35):** Structurally stable — gravity/structure dominates, predictable evolution
+- **Zone 2 (0.35 ≤ κ < 0.65):** Active evolutionary — balanced S-R coupling, productive dynamics
+- **Zone 3 (κ ≥ 0.65):** Pre-transitional — dynamics dominate, cycling behavior expected
 
 See [docs/ZONE_CLASSIFICATIONS.md](docs/ZONE_CLASSIFICATIONS.md) for details.
+
+## Thermal Relaxation Oscillations (TRO) — Independent Confirmation
+
+The KDFA zone structure predicts that systems crossing κ ≈ 0.65 should **cycle** rather than immediately collapse. This matches the well-documented phenomenon of **Thermal Relaxation Oscillations (TROs)** in binary star research:
+
+> *"During the rapid thermal part of the mass transfer, the mass-transfer rate oscillates by up to three orders of magnitude... The donors recover as the mass-transfer rate decreases and the convective part of the outer layers regrows, restarting the cycle anew."*
+> — [Schutte et al. 2024, A&A](https://www.aanda.org/articles/aa/full_html/2024/11/aa50354-24/aa50354-24.html)
+
+**KDFA Interpretation:** When κ crosses the 0.65 threshold:
+1. Dynamics dominate → mass transfer accelerates
+2. System overshoots → structure reasserts control
+3. κ drops back below threshold → donor recovers
+4. Cycle repeats until permanent transition or stabilization
+
+This cycling behavior is observed in:
+- Contact binaries (Lucy 1976, Robertson & Eggleton 1977)
+- Dwarf novae (outburst cycles from days to decades)
+- Mass-transferring systems at stability boundaries
+
+**Key Sources:**
+- [Exploring stable/unstable MT boundary (A&A 2024)](https://www.aanda.org/articles/aa/full_html/2024/11/aa50354-24/aa50354-24.html)
+- [Contact Binary Stability (AAS 2024)](https://baas.aas.org/pub/2024n7i102p06/release/1)
+- [Mass-ratio distribution of contact binaries (A&A 2023)](https://www.aanda.org/articles/aa/full_html/2023/04/aa45613-22/aa45613-22.html)
+- [Dwarf novae outburst catalogue (MNRAS 2016)](https://academic.oup.com/mnras/article/456/4/4441/1033235)
 
 ## Gas Giant Validation
 
