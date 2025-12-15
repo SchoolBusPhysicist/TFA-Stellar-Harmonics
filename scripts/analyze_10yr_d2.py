@@ -30,7 +30,7 @@ def load_all_events(events_dir='events'):
         season = os.path.basename(csv_file).replace('_exp.csv', '').replace('_exp-1.csv', '')
         print(f"Loading {season}...", end=' ')
 
-        df = pd.read_csv(csv_file, comment='#', delim_whitespace=True,
+        df = pd.read_csv(csv_file, comment='#', sep=r'\s+',
                         names=['MJD', 'log10E', 'AngErr', 'RA', 'Dec', 'Azimuth', 'Zenith'])
         df['season'] = season
         all_events.append(df)
