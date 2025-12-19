@@ -3,7 +3,7 @@
 IceCube Neutrino Correlation Dimension (D₂) Calculator
 
 This script calculates the correlation dimension D₂ for IceCube neutrino events
-to test the Dialectical Fractal Archestructure (DFA) theory prediction: D₂ = 1.45 ± 0.10
+to test the Triangular Fractal Archestructure (TFA) theory prediction: D₂ = 1.45 ± 0.10
 
 Author: Jason King (Jackie Junaid)
 Date: October 8, 2025

@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """
-KDFA D2 Analysis of IceCube 10-Year Point Source Data
+TFA D2 Analysis of IceCube 10-Year Point Source Data
 ======================================================
 
 Data: 1.13 million neutrino events (2008-2018)
 Source: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VKL316
 
-KDFA Prediction: D2 = 1.45 +/- 0.10 for high-R particles (neutrinos)
+TFA Prediction: D2 = 1.45 +/- 0.10 for high-R particles (neutrinos)
 
-Author: Jason King / KDFA Framework
+Author: Jason King / TFA Framework
 Date: December 2025
 """
 
@@ -18,9 +18,9 @@ from scipy.spatial.distance import pdist
 import glob
 import os
 
-# KDFA Prediction
-KDFA_PREDICTED_D2 = 1.45
-KDFA_PREDICTED_ERROR = 0.10
+# TFA Prediction
+TFA_PREDICTED_D2 = 1.45
+TFA_PREDICTED_ERROR = 0.10
 
 def load_all_events(events_dir='events'):
     """Load all events from all seasons."""
@@ -162,7 +162,7 @@ def analyze_by_declination(df, bins=[(-90, -30), (-30, 0), (0, 30), (30, 90)]):
 
 def main():
     print("=" * 70)
-    print("KDFA D2 ANALYSIS: IceCube 10-Year Point Source Data")
+    print("TFA D2 ANALYSIS: IceCube 10-Year Point Source Data")
     print("=" * 70)
     print()
 
@@ -191,14 +191,14 @@ def main():
     # Comparison
     print()
     print("-" * 70)
-    print("COMPARISON WITH KDFA PREDICTION")
+    print("COMPARISON WITH TFA PREDICTION")
     print("-" * 70)
     print()
-    print(f"  KDFA Predicted: D2 = {KDFA_PREDICTED_D2:.2f} +/- {KDFA_PREDICTED_ERROR:.2f}")
+    print(f"  TFA Predicted: D2 = {TFA_PREDICTED_D2:.2f} +/- {TFA_PREDICTED_ERROR:.2f}")
     print(f"  Measured:       D2 = {d2_mean:.3f} +/- {d2_std:.3f}")
 
-    difference = abs(d2_mean - KDFA_PREDICTED_D2)
-    combined_error = np.sqrt(d2_std**2 + KDFA_PREDICTED_ERROR**2)
+    difference = abs(d2_mean - TFA_PREDICTED_D2)
+    combined_error = np.sqrt(d2_std**2 + TFA_PREDICTED_ERROR**2)
     sigma = difference / combined_error
 
     print()
@@ -241,14 +241,14 @@ def main():
     print(f"Features: [log10(E), sin(Dec)] normalized to [0,1]")
     print()
     print(f"RESULT: D2 = {d2_mean:.2f} +/- {d2_std:.2f}")
-    print(f"KDFA:   D2 = {KDFA_PREDICTED_D2:.2f} +/- {KDFA_PREDICTED_ERROR:.2f}")
+    print(f"TFA:   D2 = {TFA_PREDICTED_D2:.2f} +/- {TFA_PREDICTED_ERROR:.2f}")
     print()
     print(f"Agreement: {sigma:.2f} sigma")
 
     return {
         'measured_d2': d2_mean,
         'measured_error': d2_std,
-        'predicted_d2': KDFA_PREDICTED_D2,
+        'predicted_d2': TFA_PREDICTED_D2,
         'sigma': sigma,
         'n_events': len(df),
         'energy_results': energy_results,

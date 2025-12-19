@@ -21,7 +21,7 @@ Grok generated the following claims after neutrino analysis was already underway
 
 ### Why It Was Invalid
 
-1. **No first-principles derivation.** The tachyonic threshold claim was not derived from KDFA S-R coupling principles.
+1. **No first-principles derivation.** The tachyonic threshold claim was not derived from TFA S-R coupling principles.
 
 2. **Post-hoc construction.** The claim was generated AFTER initial neutrino data was discussed, not before.
 
@@ -29,9 +29,9 @@ Grok generated the following claims after neutrino analysis was already underway
 
 4. **The velocity prediction was wrong by 19 orders of magnitude.** Standard physics gives (c-v)/c ≈ 10⁻²³ for neutrinos; Grok claimed 5×10⁻⁴.
 
-5. **KDFA has no velocity mechanism.** The framework predicts κ values and D₂ for S-R coupling. There is no equation relating fractal dimension to particle velocity.
+5. **TFA has no velocity mechanism.** The framework predicts κ values and D₂ for S-R coupling. There is no equation relating fractal dimension to particle velocity.
 
-### What Is Actually Valid (KDFA Prediction)
+### What Is Actually Valid (TFA Prediction)
 
 ```
 D₂ = 1 + (R/total) × 0.5
@@ -66,7 +66,7 @@ Detailed Monte Carlo analysis revealed the truth:
 
 ### Clean Sample Results (Muon Contamination Removed)
 
-| Energy Range | N events | D₂ | KDFA Match |
+| Energy Range | N events | D₂ | TFA Match |
 |--------------|----------|-----|------------|
 | 100-316 GeV | 779 | 1.255 | No (low statistics) |
 | 316 GeV - 1 TeV | 45,551 | 1.432 | **YES** |
@@ -75,7 +75,7 @@ Detailed Monte Carlo analysis revealed the truth:
 
 **Core energy range (316 GeV - 10 TeV) with good statistics: D₂ = 1.39-1.44**
 
-This is squarely within the KDFA prediction window. The apparent "energy dependence" was detector contamination, not a tachyonic threshold.
+This is squarely within the TFA prediction window. The apparent "energy dependence" was detector contamination, not a tachyonic threshold.
 
 ---
 
@@ -83,12 +83,12 @@ This is squarely within the KDFA prediction window. The apparent "energy depende
 
 | Claim | Status | Evidence |
 |-------|--------|----------|
-| D₂ = 1.45 baseline (KDFA) | ✅ VALIDATED | Clean sample: 1.43-1.44 |
+| D₂ = 1.45 baseline (TFA) | ✅ VALIDATED | Clean sample: 1.43-1.44 |
 | γ = 0.2 power law (Grok) | ❌ FALSIFIED | No monotonic increase to 1.5 |
 | Energy threshold at 1.5 (Grok) | ❌ FALSIFIED | Highest bins don't reach 1.5 |
 | Bimodal pattern | 📋 EXPLAINED | Muon contamination, not physics |
 
-**Bottom line:** KDFA's D₂ = 1.45 prediction for neutrinos is **CORRECT**. The energy-dependent scaling was AI confabulation, and the apparent anomalies were detector effects.
+**Bottom line:** TFA's D₂ = 1.45 prediction for neutrinos is **CORRECT**. The energy-dependent scaling was AI confabulation, and the apparent anomalies were detector effects.
 
 ---
 
@@ -104,7 +104,7 @@ The energy-dependent D₂ values are **observations**, not prediction confirmati
 | 10-100 TeV | 1.312 ± 0.039 | Observation |
 | > 100 TeV | 1.506 ± 0.033 | Observation |
 
-The variation with energy is interesting and may warrant future theoretical investigation, but it was **NOT predicted by KDFA prior to measurement**. Any claim that "KDFA predicted D₂ → 1.50 at high energies" is false.
+The variation with energy is interesting and may warrant future theoretical investigation, but it was **NOT predicted by TFA prior to measurement**. Any claim that "TFA predicted D₂ → 1.50 at high energies" is false.
 
 ---
 
@@ -153,7 +153,7 @@ The following changes were made to the publication:
 
 ---
 
-This log demonstrates that the KDFA research program actively identifies and corrects errors, including those introduced by AI collaborators. Scientific integrity requires honest accounting of what was predicted versus what was observed.
+This log demonstrates that the TFA research program actively identifies and corrects errors, including those introduced by AI collaborators. Scientific integrity requires honest accounting of what was predicted versus what was observed.
 
 **Maintainer:** Jason King (relativelyeducated@gmail.com)
 **Last Updated:** 2025-12-17

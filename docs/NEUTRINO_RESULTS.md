@@ -1,6 +1,6 @@
 # IceCube Neutrino D₂ Analysis
 
-KDFA validation using IceCube neutrino data.
+TFA validation using IceCube neutrino data.
 
 ---
 
@@ -11,7 +11,7 @@ KDFA validation using IceCube neutrino data.
 > **⚠️ RETRACTION NOTICE (2025-12-17)**
 >
 > The "tachyonic threshold" concept and energy-dependent D₂ formula below were identified as **AI confabulation** (Grok AI). Monte Carlo analysis confirmed:
-> - γ = 0.2 has NO derivation from KDFA first principles
+> - γ = 0.2 has NO derivation from TFA first principles
 > - D₂ does NOT increase monotonically with energy
 > - The apparent energy dependence was muon contamination, not physics
 >
@@ -24,7 +24,7 @@ D₂(E) ≈ D₂_0 + (E/E_c)^γ × (1.5 - D₂_0)
 γ ≈ 0.2 ← ARBITRARY, NOT DERIVED
 ```
 
-### What KDFA Actually Predicts
+### What TFA Actually Predicts
 
 **D₂ = 1.45 ± 0.10** for neutrinos (total sample, any energy)
 
@@ -32,7 +32,7 @@ This prediction IS validated. Energy-dependent scaling is NOT.
 
 ---
 
-## KDFA Prediction
+## TFA Prediction
 
 **D₂ = 1.45 ± 0.10** for astrophysical neutrinos (high-R particles)
 
@@ -58,12 +58,12 @@ This prediction IS validated. Energy-dependent scaling is NOT.
 
 ## Results Summary
 
-| Dataset | Events | D2 Measured | KDFA Predicted | Deviation |
+| Dataset | Events | D2 Measured | TFA Predicted | Deviation |
 |---------|--------|-------------|----------------|-----------|
 | HESE 7.5yr | 102 | 1.39 ± 0.04 | 1.45 ± 0.10 | **0.5σ** |
 | 10yr > 1 PeV | 194,904 | 1.49 ± 0.03 | 1.45 ± 0.10 | **0.4σ** |
 
-**Both astrophysical neutrino samples validate KDFA prediction!**
+**Both astrophysical neutrino samples validate TFA prediction!**
 
 ---
 
@@ -132,8 +132,8 @@ D2 = d(log C) / d(log r)
 
 ## Figures
 
-### KDFA Neutrino Validation
-![KDFA Neutrino Validation](../results/neutrino/kdfa_neutrino_validation.png)
+### TFA Neutrino Validation
+![TFA Neutrino Validation](../results/neutrino/kdfa_neutrino_validation.png)
 
 ### D₂ vs Energy Analysis
 ![D2 vs Energy](../results/neutrino/icecube_10yr_d2_analysis.png)
@@ -145,13 +145,13 @@ D2 = d(log C) / d(log r)
 
 ## Conclusion
 
-**KDFA VALIDATED** at < 1σ with two independent IceCube datasets totaling ~1.1 million events.
+**TFA VALIDATED** at < 1σ with two independent IceCube datasets totaling ~1.1 million events.
 
 ---
 
 ## Super-Kamiokande Δm² Validation
 
-### KDFA Prediction
+### TFA Prediction
 
 From the framework, the neutrino mass-squared difference:
 ```
@@ -160,7 +160,7 @@ From the framework, the neutrino mass-squared difference:
 
 ### Measured Value
 
-| Parameter | KDFA Predicted | Super-K Measured | Match |
+| Parameter | TFA Predicted | Super-K Measured | Match |
 |-----------|----------------|------------------|-------|
 | Δm²₃₂ | 2.50 × 10⁻³ eV² | 2.43 × 10⁻³ eV² | **97.2%** |
 
@@ -170,4 +170,4 @@ From the framework, the neutrino mass-squared difference:
 
 - Independent validation from oscillation physics (not D₂)
 - Uses completely different observable (mass difference vs correlation dimension)
-- Both converge on KDFA predictions
+- Both converge on TFA predictions

@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-Analyze Thermal Relaxation Oscillation (TRO) cycles against KDFA zone predictions.
+Analyze Thermal Relaxation Oscillation (TRO) cycles against TFA zone predictions.
 
-KDFA predicts:
+TFA predicts:
 - Zone 1 (κ < 0.35): Structurally stable, no cycling
 - Zone 2 (0.35 ≤ κ < 0.65): Active evolutionary, occasional cycling
 - Zone 3 (κ ≥ 0.65): Pre-transitional, cycling expected
@@ -13,7 +13,7 @@ Test: Do observed stellar cycling systems have κ values near 0.65?
 import numpy as np
 from scipy import stats
 
-# KDFA Zone thresholds
+# TFA Zone thresholds
 ZONE_1_MAX = 0.35
 ZONE_2_MAX = 0.65
 
@@ -22,7 +22,7 @@ def calculate_kappa(R, S):
     return R / (R + S) if (R + S) > 0 else 0
 
 def classify_zone(kappa):
-    """Classify κ into KDFA zones"""
+    """Classify κ into TFA zones"""
     if kappa < ZONE_1_MAX:
         return "Zone 1 (Structurally Stable)"
     elif kappa < ZONE_2_MAX:
@@ -109,10 +109,10 @@ def estimate_kappa_from_q_period(q, period_days, is_contact=False, is_cv=False):
     return min(max(base_kappa, 0.05), 0.95)
 
 def analyze_systems():
-    """Analyze all systems and test KDFA zone predictions"""
+    """Analyze all systems and test TFA zone predictions"""
 
     print("=" * 70)
-    print("KDFA Zone Analysis: Thermal Relaxation Oscillations")
+    print("TFA Zone Analysis: Thermal Relaxation Oscillations")
     print("=" * 70)
     print()
 
@@ -178,10 +178,10 @@ def analyze_systems():
         stable_count = sum(1 for z in stable_zones if zone_name in z)
         print(f"{zone_name}: Cycling={cycling_count}/{len(cycling_zones)}, Stable={stable_count}/{len(stable_zones)}")
 
-    # KDFA prediction test
+    # TFA prediction test
     print()
     print("=" * 70)
-    print("KDFA PREDICTION TEST")
+    print("TFA PREDICTION TEST")
     print("=" * 70)
 
     # Prediction: Cycling systems should be in Zone 2-3 (κ > 0.35)
@@ -195,12 +195,12 @@ def analyze_systems():
     print(f"Stable systems in Zone 1 (κ < 0.35):    {stable_in_stable}/{len(stable_kappas)} ({stable_accuracy:.1f}%)")
 
     overall_accuracy = (cycling_in_active + stable_in_stable) / (len(cycling_kappas) + len(stable_kappas)) * 100
-    print(f"\nOverall KDFA prediction accuracy: {overall_accuracy:.1f}%")
+    print(f"\nOverall TFA prediction accuracy: {overall_accuracy:.1f}%")
 
     if overall_accuracy > 70:
-        print("\n✓ KDFA zone structure SUPPORTED by TRO cycling data")
+        print("\n✓ TFA zone structure SUPPORTED by TRO cycling data")
     else:
-        print("\n✗ KDFA zone structure NOT supported - needs refinement")
+        print("\n✗ TFA zone structure NOT supported - needs refinement")
 
     return cycling_kappas, stable_kappas
 

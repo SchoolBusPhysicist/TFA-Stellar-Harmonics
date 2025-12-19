@@ -73,7 +73,7 @@ privacy, or moral rights may limit how you use the material.
 FRAMEWORK CONSTANTS (For Reference)
 ================================================================================
 
-The KDFA framework uses three derived constants with zero free parameters:
+The TFA framework uses three derived constants with zero free parameters:
 
 - Critical coupling: kappa* = 1/e = 0.368
 - Correlation dimension: D2 = 19/13 = 1.462

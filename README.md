@@ -1,4 +1,4 @@
-# KDFA Stellar Harmonics
+# TFA Stellar Harmonics
 
 **Universal Harmonic Structure in Stellar Oscillations: A Real-Number Coupling Framework**
 
@@ -151,12 +151,12 @@ See [docs/ZONE_CLASSIFICATIONS.md](docs/ZONE_CLASSIFICATIONS.md) for details.
 
 ## Thermal Relaxation Oscillations (TRO) — Independent Confirmation
 
-The KDFA zone structure predicts that systems crossing κ ≈ 0.65 should **cycle** rather than immediately collapse. This matches the well-documented phenomenon of **Thermal Relaxation Oscillations (TROs)** in binary star research:
+The TFA zone structure predicts that systems crossing κ ≈ 0.65 should **cycle** rather than immediately collapse. This matches the well-documented phenomenon of **Thermal Relaxation Oscillations (TROs)** in binary star research:
 
 > *"During the rapid thermal part of the mass transfer, the mass-transfer rate oscillates by up to three orders of magnitude... The donors recover as the mass-transfer rate decreases and the convective part of the outer layers regrows, restarting the cycle anew."*
 > — [Schutte et al. 2024, A&A](https://www.aanda.org/articles/aa/full_html/2024/11/aa50354-24/aa50354-24.html)
 
-**KDFA Interpretation:** When κ crosses the 0.65 threshold:
+**TFA Interpretation:** When κ crosses the 0.65 threshold:
 1. Dynamics dominate → mass transfer accelerates
 2. System overshoots → structure reasserts control
 3. κ drops back below threshold → donor recovers
@@ -283,7 +283,7 @@ The framework fails if:
 
 | Document | Contents |
 |----------|----------|
-| [GLOSSARY.md](docs/GLOSSARY.md) | **Definitions of all KDFA terms and constants** |
+| [GLOSSARY.md](docs/GLOSSARY.md) | **Definitions of all TFA terms and constants** |
 | [NEUTRINO_RESULTS.md](docs/NEUTRINO_RESULTS.md) | **IceCube D₂ analysis (1.1M events, <1σ match)** |
 | [STELLAR_RESULTS.md](docs/STELLAR_RESULTS.md) | Full Monte Carlo analysis of 25,857 systems |
 | [ZONE_CLASSIFICATIONS.md](docs/ZONE_CLASSIFICATIONS.md) | κ values and zone structure for all star types |
